@@ -259,3 +259,6 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/循环链表/循环链表.sln
+/循环链表/循环链表/循环链表.vcxproj.filters
+/循环链表/循环链表/循环链表.vcxproj
