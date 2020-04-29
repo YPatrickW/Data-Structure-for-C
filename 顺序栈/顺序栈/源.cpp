@@ -71,7 +71,6 @@ bool check_string(Elemtype str[])
 			Destory_stack(S);
 			return false;
 		}
-
 	}
 }
 
