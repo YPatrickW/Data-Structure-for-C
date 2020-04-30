@@ -6,7 +6,7 @@ typedef struct Linknode
 	Elemetype data;
 	Linknode * next;
 }Lnode;
-void init_stack(Lnode *& L)
+void init_stack(Lnode *& L)/*带头结点的链栈*/
 {
 	L = (Lnode*)malloc(sizeof(Lnode));
 	L->next = NULL;
