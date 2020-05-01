@@ -1,4 +1,3 @@
-#include<malloc.h>
 #include<iostream>
 typedef char Elemetype;
 typedef struct Linknode

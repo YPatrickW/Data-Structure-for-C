@@ -1,6 +1,4 @@
 #include<iostream>
-#include<stdlib.h>
-#include<malloc.h>
 using namespace std;
 typedef int Elementype;
 typedef struct SNode
@@ -28,17 +26,17 @@ void tail_creat(Linklist &L, Elementype a[], int n)/*循环单链表de*/
 	}
 	r->next = L;
 }
-void merge(Linklist L1, Linklist L2)/*单链表合并*/
+void merge(Linklist L1, Linklist L2)/*带头结点的单链表合并*/
 {
 	Linklist P1 = L1, P2 = L2;
 	Linklist temp;
 	while (P1->next!=L1)
 	{
-		P1 = P1->next;
+		P1 = P1->next;/*找尾结点*/
 	}
 	while (P2->next!=L2)
 	{
-		P2 = P2->next;
+		P2 = P2->next;/*找尾结点*/
 	}
 	temp = P1->next;
 	P1->next = P2->next->next;

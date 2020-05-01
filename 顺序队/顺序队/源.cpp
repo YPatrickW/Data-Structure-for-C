@@ -1,5 +1,4 @@
 #define MAXSIZE 1000
-#include<malloc.h>
 #include<iostream>
 typedef int Elemetype;
 typedef struct SqQueue/*front总是指向队头元素的前一位置*//*队尾插入，队首删除*//*非环形队列*/
