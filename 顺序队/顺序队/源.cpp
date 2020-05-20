@@ -65,7 +65,7 @@ void init_Rqueue(Rqueue *&Q)
 	Q = (Rqueue*)malloc(sizeof(Rqueue));
 	Q->count = Q->front = 0;
 }
-bool empty_Rquue(Rqueue *Q)
+bool empty_Rqueue(Rqueue *Q)
 {
 	return Q->count == 0;
 }

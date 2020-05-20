@@ -10,7 +10,7 @@ void init_stack(Lnode *& L)/*带头结点的链栈*/
 	L = (Lnode*)malloc(sizeof(Lnode));
 	L->next = NULL;
 }
-void push(Lnode *L, Elemetype e)
+void push(Lnode *L, Elemetype e)/*栈顶永远为L->next*/
 {
 	Lnode *s = (Lnode*)malloc(sizeof(Lnode));
 	s->next = L->next;
